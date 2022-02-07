@@ -1,0 +1,16 @@
+---
+title: "R Notebook"
+output: html_notebook
+---
+library(tidyverse)
+
+```{r}
+url <- "https://raw.githubusercontent.com/businessdatasolutions/courses/main/data%20mining/gitbook/datasets/breastcancer.csv"
+rawDF <- read_csv(url)
+```
+```{r}
+str(rawDF)
+```
+
+
+
